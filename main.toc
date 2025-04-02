@@ -1,0 +1,23 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.3}%
+\contentsline {section}{\numberline {1.1}What is Artificial Intelligence?}{1}{section.4}%
+\contentsline {section}{\numberline {1.2}Evolution of AI}{2}{section.5}%
+\contentsline {section}{\numberline {1.3}The risks AI}{3}{section.7}%
+\contentsline {section}{\numberline {1.4}The goal of this study}{4}{section.10}%
+\contentsline {chapter}{\numberline {2}Background}{7}{chapter.11}%
+\contentsline {section}{\numberline {2.1}Large Language Models}{7}{section.12}%
+\contentsline {subsection}{\numberline {2.1.1}Language Model Evolution}{7}{subsection.13}%
+\contentsline {subsection}{\numberline {2.1.2}State-of-the-art}{9}{subsection.16}%
+\contentsline {subsection}{\numberline {2.1.3}State of the practice}{14}{subsection.21}%
+\contentsline {section}{\numberline {2.2}Prompt Engineering}{18}{section.35}%
+\contentsline {subsection}{\numberline {2.2.1}Introduction and Evolution}{19}{subsection.36}%
+\contentsline {subsection}{\numberline {2.2.2}Taxonomies and main techniques}{20}{subsection.38}%
+\contentsline {subsection}{\numberline {2.2.3}State-of-the-practice}{26}{subsection.51}%
+\contentsline {subsubsection}{Prompt engineering in the medical field:}{26}{section*.52}%
+\contentsline {subsubsection}{Prompt engineering in the educational field:}{26}{section*.53}%
+\contentsline {subsubsection}{Prompt Engineering in the legal field:}{27}{section*.54}%
+\contentsline {chapter}{\numberline {3}Proposed Methodology}{29}{chapter.56}%
+\contentsline {chapter}{\numberline {4}Design and implementations}{30}{chapter.57}%
+\contentsline {chapter}{\numberline {5}Evaluation and results}{31}{chapter.58}%
+\contentsline {chapter}{\numberline {6}Conclusions and possible future solutions}{32}{chapter.59}%
+\contentsline {chapter}{Bibliography}{34}{chapter*.61}%

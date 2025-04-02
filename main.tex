@@ -1,0 +1,349 @@
+
+\documentclass[
+12pt, % The default document font size, options: 10pt, 11pt, 12pt
+oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+english, % ngerman for German
+onehalfspacing,
+%singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
+%draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
+%nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
+liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
+%toctotoc, % Uncomment to add the main table of contents to the table of contents
+%parskip, % Uncomment to add space between paragraphs
+%nohyperref, % Uncomment to not load the hyperref package
+headsepline, % Uncomment to get a line under the header
+%chapterinoneline, % Uncomment to place the chapter title next to the number on one line
+%consistentlayout, % Uncomment to change the layout of the declaration, abstract and acknowledgements pages to match the default layout
+]{MastersDoctoralThesis} % The class file specifying the document structure
+
+
+\RequirePackage{silence} % Suppress the following list of warnings
+\WarningFilter{remreset}{The remreset package}
+\WarningFilter{biblatex}{Using fall-back}
+
+\errorcontextlines = 2
+
+\usepackage{pythonhighlight}
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+
+%\usepackage{palatino} % Use the Palatino font by default
+
+\usepackage[maxcitenames=1,backend=bibtex,style=numeric,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\DeclareFieldFormat{doi}{%
+  \newline
+  \mkbibacro{DOI}\addcolon\space
+    \ifhyperref
+      {\href{http://dx.doi.org/#1}{\nolinkurl{#1}}}
+      {\nolinkurl{#1}}}
+\DeclareFieldFormat{isbn}{%
+  \newline
+  \mkbibacro{ISBN}\addcolon\space {#1}
+  }      
+\DeclareFieldFormat{issn}{%
+  \newline
+  \mkbibacro{ISSN}\addcolon\space {#1}
+  }  
+  
+\addbibresource{references.bib}
+
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+
+%%%%% Change tracking
+%\usepackage{changes} 
+%\definechangesauthor[name={Fabio Calefato}, color=blue]{fc}
+%\definechangesauthor[name={Giuseppe Iaffaldano}, color=olive]{gi}
+
+%-----------------------------------
+\usepackage{amsmath,amsfonts,amssymb,stmaryrd,amsthm,marvosym}
+\usepackage{bm}
+\usepackage{mleftright}
+\usepackage{multicol, multirow, rotating}
+%\usepackage{algorithm,algorithmic}
+\usepackage{centernot}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes}
+\usetikzlibrary[topaths]
+\usepackage{tkz-graph}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{array}
+%\usepackage{todonotes}              % For In-line TO-DO notes
+\usepackage{graphicx, subcaption}   % For subfigures
+\usepackage{rotating}
+%\usepackage[table,xcdraw]{xcolor}   % If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\usepackage{dashrule}           % For dashed lines (es response space for questions)
+\usepackage{enumitem}           % For breaking and resuming enumerating
+\usepackage{soul}               % For Strikeout text
+\usepackage{multirow}
+
+\newenvironment{results}
+    {\begin{samepage}
+    \begin{center}\noindent\rule{.9\textwidth}{1pt}\end{center}
+    }
+    {\begin{center}\noindent\rule{.9\textwidth}{1pt}\end{center}
+    \end{samepage}
+    }
+
+
+
+
+%New colors defined below
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+%Code listing style named "mystyle"
+\lstdefinestyle{mystyle}{
+  backgroundcolor=\color{backcolour}, commentstyle=\color{codegreen},
+  keywordstyle=\color{magenta},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\ttfamily\footnotesize,
+  breakatwhitespace=false,         
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,                    
+  numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2
+}
+
+% Definizione dello stile per html con l'aggiunta da alcuni tag di html5
+
+%"mystyle" code listing set
+\lstset{style=mystyle}
+
+
+\addto\captionsitalian{%
+  \renewcommand{\lstlistingname}{Listato}%
+  \renewcommand\lstlistlistingname{Elenco dei listati}}
+%-------------------------
+
+
+
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{longtable}
+
+\usepackage[toc,page]{appendix}
+
+\colorlet{punct}{red!60!black}
+\definecolor{background}{HTML}{EEEEEE}
+\definecolor{delim}{RGB}{20,105,176}
+\colorlet{numb}{magenta!60!black}
+\lstdefinelanguage{json}{
+	basicstyle=\normalfont\ttfamily,
+	numberstyle=\scriptsize,
+	stepnumber=1,
+	numbersep=8pt,
+	showstringspaces=false,
+	breaklines=true,
+	frame=lines,
+	backgroundcolor=\color{background},
+	literate=
+	*{0}{{{\color{numb}0}}}{1}
+	{1}{{{\color{numb}1}}}{1}
+	{2}{{{\color{numb}2}}}{1}
+	{3}{{{\color{numb}3}}}{1}
+	{4}{{{\color{numb}4}}}{1}
+	{5}{{{\color{numb}5}}}{1}
+	{6}{{{\color{numb}6}}}{1}
+	{7}{{{\color{numb}7}}}{1}
+	{8}{{{\color{numb}8}}}{1}
+	{9}{{{\color{numb}9}}}{1}
+	{:}{{{\color{punct}{:}}}}{1}
+	{,}{{{\color{punct}{,}}}}{1}
+	{\{}{{{\color{delim}{\{}}}}{1}
+	{\}}{{{\color{delim}{\}}}}}{1}
+	{[}{{{\color{delim}{[}}}}{1}
+	{]}{{{\color{delim}{]}}}}{1},
+}
+
+\AtBeginDocument{\counterwithout{lstlisting}{section}}
+
+\usepackage{tabularx}
+\usepackage{algorithm2e}
+\usepackage{comment}
+
+%\usepackage[colorinlistoftodos,prependcaption]{todonotes}
+%\usepackage{blindtext}
+%\presetkeys%
+    %{todonotes}%
+    %{inline,backgroundcolor=yellow}{}
+    
+    
+%%%%
+
+
+%%%%%
+
+%----------------------------------------------------------------------------------------
+%	MARGIN SETTINGS
+%----------------------------------------------------------------------------------------
+
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=2.8cm, % Inner margin
+	outer=3.0cm, % Outer margin
+	bindingoffset=1cm, % Binding offset
+	top=1.5cm, % Top margin
+	bottom=1.5cm, % Bottom margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+\begin{document}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+\sloppy
+\input{Contents/title-page.tex}
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+\thispagestyle{empty}
+
+\input{Contents/dedication}
+
+\clearpage
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+
+\chapter*{Abstract}
+\thispagestyle{empty}
+
+\input{Contents/abstract-eng.tex}
+
+\clearpage
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS PAGES
+%----------------------------------------------------------------------------------------
+
+\cleardoublepage
+
+\tableofcontents % Prints the main table of contents
+
+%----------------------------------------------------------------------------------------
+%	LIST OF FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+% \cleardoublepage
+
+% \listoffigures % Prints the list of figures
+
+% \listoftables % Prints the list of tables
+
+% \lstlistoflistings % Prints the list of listings
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{thesis} % Return the page headers back to the "thesis" style
+
+%\begin{abstract}
+%\input{Contents/abstract}
+%\end{abstract}
+
+\chapter{Introduction}
+\label{cap:introduzione}
+\input{Contents/cap1-introduzione.tex}
+
+\chapter{Background}
+\label{cap:stato_dellarte}
+\input{Contents/cap2-stato_dellarte.tex}
+
+\chapter{Proposed Methodology}
+\label{cap:metodologia}
+\input{Contents/cap3-metodologia.tex}
+
+\chapter{Design and implementations}
+\label{cap:progettazione}
+\input{Contents/cap4-progettazione.tex}
+
+\chapter{Evaluation and results}
+\label{cap:sperimentazione}
+\input{Contents/cap5-sperimentazione.tex}
+
+\chapter{Conclusions and possible future solutions}
+\label{cap:conclusioni}
+\input{Contents/cap6-conclusioni.tex}
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\chapter*{Ringraziamenti}
+\thispagestyle{empty}
+
+\input{Contents/acknowledgements.tex}
+
+\clearpage
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+%\appendix % Cue to tell LaTeX that the following "chapters" are Appendices
+%\begin{appendices}
+
+%\input{Contents/appendixA.tex}
+%\end{appendices}
+%\input{Appendices/AppendixB}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\printbibliography[heading=bibintoc]
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%----------------------------------------------------------------------------------------
+
+%\begin{declaration}
+%\addchaptertocentry{\authorshipname} % Add the declaration to the table of contents
+%\noindent I, \authorname, declare that this thesis titled, \enquote{\ttitle} and the work presented in it are my own. I confirm that:
+
+%\begin{itemize} 
+%\item This work was done wholly while in candidature for a research degree at this University.
+%\item Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
+%\item Where I have consulted the published work of others, this is always clearly attributed.
+%\item Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
+%\item I have acknowledged all main sources of help.
+%\item Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.\\
+%\end{itemize}
+ 
+%\noindent Signed:\\
+%\rule[0.5em]{25em}{0.5pt} % This prints a line for the signature
+ 
+%\noindent Date:\\
+%\rule[0.5em]{25em}{0.5pt} % This prints a line to write the date
+%\end{declaration}
+
+%\cleardoublepage
+
+%----------------------------------------------------------------------------------------
+%	QUOTATION PAGE
+%----------------------------------------------------------------------------------------
+
+
+
+\end{document}  
