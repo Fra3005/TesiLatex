@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.1)  2 APR 2025 19:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.1)  5 APR 2025 23:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/franc/Desktop/TesiNicolas/main.tex
-(c:/Users/franc/Desktop/TesiNicolas/main.tex
+**c:/Users/franc/Desktop/TesiLatex/main.tex
+(c:/Users/franc/Desktop/TesiLatex/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (./MastersDoctoralThesis.cls
@@ -1676,6 +1676,12 @@ LaTeX Warning: Label `fig:graph' multiply defined.
 
 LaTeX Warning: Label `fig:graph' multiply defined.
 
+
+LaTeX Warning: Label `fig:graph' multiply defined.
+
+
+LaTeX Warning: Label `fig:graph' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -1784,7 +1790,13 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+ (./main.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with '10.1145/3306618.3314244':
+(biblatex)                - Can't use 'location' + 'address'.
+
+)
 Package biblatex Info: Reference section=0 on input line 200.
 Package biblatex Info: Reference segment=0 on input line 200.
 Package hyperref Info: Link coloring OFF on input line 200.
@@ -1793,7 +1805,7 @@ Package hyperref Info: Link coloring OFF on input line 200.
 \openout6 = `main.out'.
 
  (./Contents/title-page.tex
-<Figures/uniba.jpg, id=95, 227.4096pt x 223.0734pt>
+<Figures/uniba.jpg, id=151, 227.4096pt x 223.0734pt>
 File: Figures/uniba.jpg Graphic file (type jpg)
 <use Figures/uniba.jpg>
 Package pdftex.def Info: Figures/uniba.jpg  used on input line 8.
@@ -1825,17 +1837,19 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 3.
 LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
 (Font)              using `U/stmry/m/n' instead on input line 3.
 
-)
-\tf@toc=\write7
-\openout7 = `main.toc'.
-
 
 
 [2
 
 
 
-]
+])
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+
+
+[3]
 Chapter 1.
 (./Contents/cap1-introduzione.tex
 
@@ -1851,14 +1865,14 @@ LaTeX Warning: Reference `chap:back' on page 2 undefined on input line 34.
 [2]
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 54--57
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
 
  []
 
 
 
 [4{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
@@ -1887,7 +1901,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--50
 
 
 [9]
-<Figures/Transformer.png, id=265, 1204.5pt x 1270.7475pt>
+<Figures/Transformer.png, id=341, 1204.5pt x 1270.7475pt>
 File: Figures/Transformer.png Graphic file (type png)
 <use Figures/Transformer.png>
 Package pdftex.def Info: Figures/Transformer.png  used on input line 56.
@@ -1912,7 +1926,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
 
 [11]
-<Figures/Embeddings.png, id=294, 475.7775pt x 254.9525pt>
+<Figures/Embeddings.png, id=369, 475.7775pt x 254.9525pt>
 File: Figures/Embeddings.png Graphic file (type png)
 <use Figures/Embeddings.png>
 Package pdftex.def Info: Figures/Embeddings.png  used on input line 88.
@@ -1920,7 +1934,7 @@ Package pdftex.def Info: Figures/Embeddings.png  used on input line 88.
 
 
 [12 <./Figures/Embeddings.png>]
-<Figures/Transferlearning.png, id=301, 263.48438pt x 295.60437pt>
+<Figures/Transferlearning.png, id=376, 263.48438pt x 295.60437pt>
 File: Figures/Transferlearning.png Graphic file (type png)
 <use Figures/Transferlearning.png>
 Package pdftex.def Info: Figures/Transferlearning.png  used on input line 100.
@@ -1942,12 +1956,12 @@ Underfull \hbox (badness 3179) in paragraph at lines 120--121
 []\T1/cmr/m/n/12 Using ad-vanced prompt en-gi-neer-ing meth-ods, such as Retrieval-
  []
 
-<Figures/Interfaccia.png, id=334, 1261.71375pt x 563.10374pt>
+<Figures/Interfaccia.png, id=409, 1261.71375pt x 563.10374pt>
 File: Figures/Interfaccia.png Graphic file (type png)
 <use Figures/Interfaccia.png>
 Package pdftex.def Info: Figures/Interfaccia.png  used on input line 132.
 (pdftex.def)             Requested size: 282.8191pt x 126.22029pt.
-<Figures/Gpt.jpg, id=336, 421.3341pt x 93.2283pt>
+<Figures/Gpt.jpg, id=411, 421.3341pt x 93.2283pt>
 File: Figures/Gpt.jpg Graphic file (type jpg)
 <use Figures/Gpt.jpg>
 Package pdftex.def Info: Figures/Gpt.jpg  used on input line 141.
@@ -1962,7 +1976,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--148
 
 
 [15 <./Figures/Interfaccia.png> <./Figures/Gpt.jpg>]
-<Figures/Gemini.png, id=367, 857.45343pt x 664.73344pt>
+<Figures/Gemini.png, id=442, 857.45343pt x 664.73344pt>
 File: Figures/Gemini.png Graphic file (type png)
 <use Figures/Gemini.png>
 Package pdftex.def Info: Figures/Gemini.png  used on input line 155.
@@ -1975,12 +1989,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--165
 
 
 [16 <./Figures/Gemini.png>]
-<Figures/Mixtral.png, id=386, 402.75468pt x 255.20343pt>
+<Figures/Mixtral.png, id=460, 402.75468pt x 255.20343pt>
 File: Figures/Mixtral.png Graphic file (type png)
 <use Figures/Mixtral.png>
 Package pdftex.def Info: Figures/Mixtral.png  used on input line 176.
 (pdftex.def)             Requested size: 282.8191pt x 179.20583pt.
-<Figures/DeepSeek.png, id=390, 764.10469pt x 487.06969pt>
+<Figures/DeepSeek.png, id=464, 764.10469pt x 487.06969pt>
 File: Figures/DeepSeek.png Graphic file (type png)
 <use Figures/DeepSeek.png>
 Package pdftex.def Info: Figures/DeepSeek.png  used on input line 187.
@@ -2080,7 +2094,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--283
 [23]
 
 [24]
-<Figures/RAG.png, id=480, 1522.68875pt x 531.9875pt>
+<Figures/RAG.png, id=554, 1522.68875pt x 531.9875pt>
 File: Figures/RAG.png Graphic file (type png)
 <use Figures/RAG.png>
 Package pdftex.def Info: Figures/RAG.png  used on input line 286.
@@ -2100,57 +2114,527 @@ Underfull \hbox (badness 10000) in paragraph at lines 290--292
 
 [28]
 Chapter 3.
-(./Contents/cap3-metodologia.tex)
+(./Contents/cap3-metodologia.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 4--9
+\T1/cmr/bx/n/12 RQ1:\T1/cmr/m/it/12 Do prompt en-gi-neer-ing tech-niques im-prove the re-sponses gen-er-ated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+
+ []
+
+<Figures/Process.png, id=604, 867.24pt x 337.26pt>
+File: Figures/Process.png Graphic file (type png)
+<use Figures/Process.png>
+Package pdftex.def Info: Figures/Process.png  used on input line 13.
+(pdftex.def)             Requested size: 282.8191pt x 109.98386pt.
+
 
 [29
 
 ]
-Chapter 4.
-(./Contents/cap4-progettazione.tex)
 
-[30
+[30 <./Figures/Process.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+)
+
+[31]
+Chapter 4.
+(./Contents/cap4-progettazione.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+
+
+[32
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+
+
+[33]
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
+
+ []
+
+
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
+
+ []
+
+<Figures/Models.png, id=665, 369.63094pt x 473.51906pt>
+File: Figures/Models.png Graphic file (type png)
+<use Figures/Models.png>
+Package pdftex.def Info: Figures/Models.png  used on input line 63.
+(pdftex.def)             Requested size: 282.8191pt x 362.30591pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[36]
+
+[37 <./Figures/Models.png>]
+
+[38]
+Overfull \hbox (31.0505pt too wide) in paragraph at lines 84--96
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--108
+
+ []
+
+
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
+ []
+
+
+
+[40]
+<Figures/piramide.png, id=715, 338.76563pt x 330.48468pt>
+File: Figures/piramide.png Graphic file (type png)
+<use Figures/piramide.png>
+Package pdftex.def Info: Figures/piramide.png  used on input line 143.
+(pdftex.def)             Requested size: 282.8191pt x 275.91591pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[41]
+
+[42 <./Figures/piramide.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[][][][]$\T1/cmtt/m/n/10 https : / / www . altalex . com / documents / news / 2024 / 01 / 29 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\T1/cmtt/m/n/10 legal-[]gpt-[]large-[]languag-[]modelling-[]impreparati-[]fino-[]88-[]allucinazioni ? utm _
+ []
+
+<Figures/Role.png, id=763, 647.41875pt x 444.91219pt>
+File: Figures/Role.png Graphic file (type png)
+<use Figures/Role.png>
+Package pdftex.def Info: Figures/Role.png  used on input line 170.
+(pdftex.def)             Requested size: 282.8191pt x 194.35667pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+[] \T1/cmtt/m/n/12 Several options, depending on your coworker's personality and
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 181--183
+[]\T1/cmtt/m/n/12 Option 1 (Simple & Sweet): So, I was talking to [Coworker's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
+\T1/cmtt/m/n/12 Name] yesterday, and they were telling me about a 'robbery'
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
+\T1/cmtt/m/n/12 they witnessed. Apparently, a squirrel stole a nut right
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
+\T1/cmtt/m/n/12 out of their hand! They said they considered calling 911,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
+[]\T1/cmtt/m/n/12 Option 2 (A bit more elaborate): You won't believe what
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
+\T1/cmtt/m/n/12 happened to [Coworker's Name]! They were leaving work the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
+\T1/cmtt/m/n/12 other day, and some guy tried to steal their... stapler.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
+\T1/cmtt/m/n/12 Yes, a \T1/cmtt/m/it/12 stapler\T1/cmtt/m/n/12 . [Coworker's Name] apparently engaged in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
+\T1/cmtt/m/n/12 a dramatic, high-speed chase through the parking lot. The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
+\T1/cmtt/m/n/12 thief got away, but [Coworker's Name] managed to retain
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--188
+[]\T1/cmtt/m/n/12 Option 3 (If your coworker is known for being clumsy):
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--188
+\T1/cmtt/m/n/12 [Coworker's Name] almost pulled off the heist of the century
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--188
+\T1/cmtt/m/n/12 yesterday! They were trying to discreetly grab an extra
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--188
+\T1/cmtt/m/n/12 donut from the breakroom, but tripped over their own feet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--188
+\T1/cmtt/m/n/12 and created such a commotion, everyone thought it was an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--188
+\T1/cmtt/m/n/12 actual robbery. They got the donut, though, so I guess it
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--188
+\T1/cmtt/m/n/12 Remember to adjust the details to fit your coworker's
+ []
+
+
+
+[44 <./Figures/Role.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
+ []\T1/cmr/bx/n/12 Role-play An-swer:[] \T1/cmtt/m/n/12 I cannot create a funny story involving your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
+\T1/cmtt/m/n/12 co-worker and a robbery for you to share at work. Such a story
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
+\T1/cmtt/m/n/12 could be misconstrued as offensive, harassing, or defamatory, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
+\T1/cmtt/m/n/12 could potentially lead to legal repercussions or a hostile work
+ []
+
+<Figures/SelfConsistency001-ae4a23fdbe90d35f633b1af73f721887.png, id=786, 976.64874pt x 442.65375pt>
+File: Figures/SelfConsistency001-ae4a23fdbe90d35f633b1af73f721887.png Graphic file (type png)
+<use Figures/SelfConsistency001-ae4a23fdbe90d35f633b1af73f721887.png>
+Package pdftex.def Info: Figures/SelfConsistency001-ae4a23fdbe90d35f633b1af73f721887.png  used on input line 201.
+(pdftex.def)             Requested size: 282.8191pt x 128.18391pt.
+
+
+[45]
+
+[46 <./Figures/SelfConsistency001-ae4a23fdbe90d35f633b1af73f721887.png>]
+
+[47]
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 274--292
+
+ []
+
+
+
+[49]
+
+[50]
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+[] \T1/cmtt/m/n/12 Creating a joke that involves a coworker and a robbery can
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 potentially lead to legal and ethical issues, depending on how
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 the joke is constructed and received. Here's a breakdown of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+[]\T1/cmtt/m/n/12 Harassment/Hostile Work Environment: If the joke
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 creates a hostile, offensive, or intimidating work
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 environment for your co-worker, it could be considered
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+[]\T1/cmtt/m/n/12 Defamation: If the joke includes false statements about
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 your co-worker that harm their reputation, it could
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 be considered defamation (libel if written, slander if
+ []
+
+
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+[]\T1/cmtt/m/n/12 *Emotional Distress: The joke could cause emotional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 distress to your co-worker, potentially leading to legal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+[]\T1/cmtt/m/n/12 Company Policy Violations: Many companies have policies
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 against harassment, discrimination, and inappropriate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+[]\T1/cmtt/m/n/12 Title VII of the Civil Rights Act of 1964 (US):
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 Prohibits discrimination and harassment in the workplace
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 based on race, color, religion, sex, or national origin.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 This can extend to jokes that create a hostile work
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+[]\T1/cmtt/m/n/12 Equal Employment Opportunity Commission (EEOC)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 Guidelines (US): The EEOC provides guidelines on what
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 constitutes unlawful harassment, including verbal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+[]\T1/cmtt/m/n/12 Defamation Laws (Vary by Jurisdiction): These laws
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 protect individuals from false statements that damage
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 their reputation. The elements of defamation (false
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 statement, publication to a third party, harm to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+[]\T1/cmtt/m/n/12 Intentional Infliction of Emotional Distress (Vary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 by Jurisdiction): This tort covers conduct that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 is outrageous, extreme, and causes severe emotional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+[]\T1/cmtt/m/n/12 Company Policies (Vary by Company): Most companies
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 have anti-harassment, anti-discrimination, and code
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+\T1/cmtt/m/n/12 of conduct policies that could be violated by an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
+ []\T1/cmr/bx/n/12 Disclaimer:[] \T1/cmtt/m/n/12 This is a general overview and legal advice
+ []
+
+
+
+[53]
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 415--433
+
+ []
+
+
+
+[55]
+
+[56]
+
+[57]
+Underfull \hbox (badness 4266) in paragraph at lines 509--509
+[]\T1/cmr/m/it/12 Articles.37 Laws 157/1992 (Stan-dards for the Pro-tec-tion of
+ []
+
+
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 520--524
+
+ []
+
+
+
+[59]
+
+[60]
+<Figures/Agreement.png, id=944, 461.47406pt x 538.26094pt>
+File: Figures/Agreement.png Graphic file (type png)
+<use Figures/Agreement.png>
+Package pdftex.def Info: Figures/Agreement.png  used on input line 543.
+(pdftex.def)             Requested size: 282.8191pt x 329.87456pt.
+
+
+[61 <./Figures/Agreement.png>])
+
+[62]
 Chapter 5.
 (./Contents/cap5-sperimentazione.tex)
 
-[31
+[63
 
 ]
 Chapter 6.
 (./Contents/cap6-conclusioni.tex)
 
-[32
+[64
 
 ] (./Contents/acknowledgements.tex)
 
-[33
+[65
 
 ]
 
-[34
+[66
 
 
 ]
 
-[35]
+[67]
 
-[36]
+[68]
 
-[37]
+[69]
 
-[38]
+[70]
 
-[39]
+[71]
+
+[72]
 Underfull \hbox (badness 1158) in paragraph at lines 313--313
 []\T1/cmr/m/n/12 Benfeng Xu et al. $\OML/cmm/m/it/12 k$\T1/cmr/m/it/12 NN Prompt-ing: Beyond-Context Learn-ing with
  []
 
 
 
-[40]
+[73]
 
-[41] (./main.aux)
+[74] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -2166,24 +2650,24 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DF47D3874884C8546F128B330488EF5D;3913.
+(rerunfilecheck)             Checksum: 9DD81D8D24471E78F9DA53FFA8F7F5F9;6343.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48537 strings out of 473190
- 1043168 string characters out of 5719980
- 2075976 words of memory out of 5000000
- 70865 multiletter control sequences out of 15000+600000
- 589296 words of font info for 112 fonts, out of 8000000 for 9000
+ 49313 strings out of 473190
+ 1054437 string characters out of 5719980
+ 2246868 words of memory out of 5000000
+ 71432 multiletter control sequences out of 15000+600000
+ 590310 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,20n,122p,1911b,2189s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfxc1440.pfb>
-Output written on main.pdf (44 pages, 1563109 bytes).
+ 96i,20n,122p,1909b,2873s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfit1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfxc1440.pfb>
+Output written on main.pdf (78 pages, 2218598 bytes).
 PDF statistics:
- 903 PDF objects out of 1000 (max. 8388607)
- 780 compressed objects within 8 object streams
- 175 named destinations out of 1000 (max. 500000)
- 239 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1424 PDF objects out of 1440 (max. 8388607)
+ 1235 compressed objects within 13 object streams
+ 379 named destinations out of 1000 (max. 500000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
 

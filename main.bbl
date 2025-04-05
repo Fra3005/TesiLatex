@@ -127,6 +127,213 @@
     \field{year}{2020}
   \endentry
 
+  \entry{brown2020languagemodelsfewshotlearners}{misc}{}{}
+    \name{author}{31}{}{%
+      {{hash=BTB}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Tom\bibnamedelima B.},
+         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MB}{%
+         family={Mann},
+         familyi={M\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Ryder},
+         familyi={R\bibinitperiod},
+         given={Nick},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Subbiah},
+         familyi={S\bibinitperiod},
+         given={Melanie},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kaplan},
+         familyi={K\bibinitperiod},
+         given={Jared},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DP}{%
+         family={Dhariwal},
+         familyi={D\bibinitperiod},
+         given={Prafulla},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=NA}{%
+         family={Neelakantan},
+         familyi={N\bibinitperiod},
+         given={Arvind},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Shyam},
+         familyi={S\bibinitperiod},
+         given={Pranav},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Sastry},
+         familyi={S\bibinitperiod},
+         given={Girish},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Askell},
+         familyi={A\bibinitperiod},
+         given={Amanda},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Agarwal},
+         familyi={A\bibinitperiod},
+         given={Sandhini},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HVA}{%
+         family={Herbert-Voss},
+         familyi={H\bibinithyphendelim V\bibinitperiod},
+         given={Ariel},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KG}{%
+         family={Krueger},
+         familyi={K\bibinitperiod},
+         given={Gretchen},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Henighan},
+         familyi={H\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Child},
+         familyi={C\bibinitperiod},
+         given={Rewon},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Ramesh},
+         familyi={R\bibinitperiod},
+         given={Aditya},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZDM}{%
+         family={Ziegler},
+         familyi={Z\bibinitperiod},
+         given={Daniel\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Winter},
+         familyi={W\bibinitperiod},
+         given={Clemens},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={Hesse},
+         familyi={H\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Sigler},
+         familyi={S\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Litwin},
+         familyi={L\bibinitperiod},
+         given={Mateusz},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gray},
+         familyi={G\bibinitperiod},
+         given={Scott},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Chess},
+         familyi={C\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Clark},
+         familyi={C\bibinitperiod},
+         given={Jack},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Berner},
+         familyi={B\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={McCandlish},
+         familyi={M\bibinitperiod},
+         given={Sam},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Radford},
+         familyi={R\bibinitperiod},
+         given={Alec},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Sutskever},
+         familyi={S\bibinitperiod},
+         given={Ilya},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={Amodei},
+         familyi={A\bibinitperiod},
+         given={Dario},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BTB+1}
+    \strng{fullhash}{BTBMBRNSMKJDPNASPSGAAASHVAKGHTCRRAZDMWJWCHCCMSELMGSCBCJBCMSRASIAD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{eprint}
+    \verb 2005.14165
+    \endverb
+    \field{title}{Language Models are Few-Shot Learners}
+    \verb{url}
+    \verb https://arxiv.org/abs/2005.14165
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CL}
+    \field{year}{2020}
+  \endentry
+
   \entry{chalkidis2023lexfileslegallamafacilitatingenglish}{misc}{}{}
     \name{author}{5}{}{%
       {{hash=CI}{%
@@ -176,6 +383,55 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{cs.CL}
     \field{year}{2023}
+  \endentry
+
+  \entry{Pabak}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=CG}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=FP}{%
+         family={Faris},
+         familyi={F\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Hemmelgarn},
+         familyi={H\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Walker},
+         familyi={W\bibinitperiod},
+         given={R.L.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=QH}{%
+         family={Quan},
+         familyi={Q\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CG+1}
+    \strng{fullhash}{CGFPHBWRQH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb 10.1186/1471-2288-9-5
+    \endverb
+    \field{number}{5}
+    \field{title}{Measuring agreement of administrative data with chart data using prevalence unadjusted and adjusted kappa}
+    \field{volume}{9}
+    \field{journaltitle}{BMC Medical Research Methodology}
+    \field{year}{2009}
   \endentry
 
   \entry{Palm}{misc}{}{}
@@ -2069,6 +2325,56 @@
     \field{year}{2019}
   \endentry
 
+  \entry{DBSCAN}{inproceedings}{}{}
+    \name{author}{4}{}{%
+      {{hash=EM}{%
+         family={Ester},
+         familyi={E\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KHP}{%
+         family={Kriegel},
+         familyi={K\bibinitperiod},
+         given={Hans-Peter},
+         giveni={H\bibinithyphendelim P\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sander},
+         familyi={S\bibinitperiod},
+         given={J\"{o}rg},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=XX}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Xiaowei},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {AAAI Press}%
+    }
+    \keyw{handling nlj4-275oise, efficiency on large spatial databases, clustering algorithms, arbitrary shape of clusters}
+    \strng{namehash}{EM+1}
+    \strng{fullhash}{EMKHPSJXX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{abstract}{%
+    Clustering algorithms are attractive for the task of class identification in spatial databases. However, the application to large spatial databases rises the following requirements for clustering algorithms: minimal requirements of domain knowledge to determine the input parameters, discovery of clusters with arbitrary shape and good efficiency on large databases. The well-known clustering algorithms offer no solution to the combination of these requirements. In this paper, we present the new clustering algorithm DBSCAN relying on a density-based notion of clusters which is designed to discover clusters of arbitrary shape. DBSCAN requires only one input parameter and supports the user in determining an appropriate value for it. We performed an experimental evaluation of the effectiveness and efficiency of DBSCAN using synthetic data and real data of the SEQUOIA 2000 benchmark. The results of our experiments demonstrate that (1) DBSCAN is significantly more effective in discovering clusters of arbitrary shape than the well-known algorithm CLAR-ANS, and that (2) DBSCAN outperforms CLARANS by a factor of more than 100 in terms of efficiency.%
+    }
+    \field{booktitle}{Proceedings of the Second International Conference on Knowledge Discovery and Data Mining}
+    \field{pages}{226–231}
+    \field{series}{KDD'96}
+    \field{title}{A density-based algorithm for discovering clusters in large spatial databases with noise}
+    \list{location}{1}{%
+      {Portland, Oregon}%
+    }
+    \field{year}{1996}
+  \endentry
+
   \entry{MoE}{misc}{}{}
     \name{author}{4}{}{%
       {{hash=GW}{%
@@ -2381,6 +2687,135 @@
     \field{journaltitle}{ACM Transactions on Information Systems}
     \field{month}{01}
     \field{year}{2025}
+  \endentry
+
+  \entry{huang2023languageneedaligningperception}{misc}{}{}
+    \name{author}{18}{}{%
+      {{hash=HS}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Shaohan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={Dong},
+         familyi={D\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Wenhui},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Hao},
+         familyi={H\bibinitperiod},
+         given={Yaru},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Singhal},
+         familyi={S\bibinitperiod},
+         given={Saksham},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Ma},
+         familyi={M\bibinitperiod},
+         given={Shuming},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LT}{%
+         family={Lv},
+         familyi={L\bibinitperiod},
+         given={Tengchao},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Cui},
+         familyi={C\bibinitperiod},
+         given={Lei},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MOK}{%
+         family={Mohammed},
+         familyi={M\bibinitperiod},
+         given={Owais\bibnamedelima Khan},
+         giveni={O\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=PB}{%
+         family={Patra},
+         familyi={P\bibinitperiod},
+         given={Barun},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LQ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Qiang},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=AK}{%
+         family={Aggarwal},
+         familyi={A\bibinitperiod},
+         given={Kriti},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CZ}{%
+         family={Chi},
+         familyi={C\bibinitperiod},
+         given={Zewen},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bjorck},
+         familyi={B\bibinitperiod},
+         given={Johan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CV}{%
+         family={Chaudhary},
+         familyi={C\bibinitperiod},
+         given={Vishrav},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Som},
+         familyi={S\bibinitperiod},
+         given={Subhojit},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SX}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Xia},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WF}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Furu},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HS+2}
+    \strng{fullhash}{HSDLWWHYSSMSLTCLMOKPBLQAKCZBJCVSSSXWF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{eprint}
+    \verb 2302.14045
+    \endverb
+    \field{title}{Language Is Not All You Need: Aligning Perception with Language Models}
+    \verb{url}
+    \verb https://arxiv.org/abs/2302.14045
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CL}
+    \field{year}{2023}
   \endentry
 
   \entry{NLP}{article}{}{}
@@ -3404,6 +3839,95 @@
     \field{year}{2019}
   \endentry
 
+  \entry{luciano2019field}{article}{}{}
+    \name{author}{11}{}{%
+      {{hash=LM}{%
+         family={Luciano},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Sampogna},
+         familyi={S\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DVV}{%
+         family={Del\bibnamedelima Vecchio},
+         familyi={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=GV}{%
+         family={Giallonardo},
+         familyi={G\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=FG}{%
+         family={Fico},
+         familyi={F\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PB}{%
+         family={Pocai},
+         familyi={P\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Palummo},
+         familyi={P\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SJL}{%
+         family={Steardo\bibnamedelima Jr},
+         familyi={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=RT}{%
+         family={Rebello},
+         familyi={R\bibinitperiod},
+         given={T.J.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Reed},
+         familyi={R\bibinitperiod},
+         given={G.M.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Fiorillo},
+         familyi={F\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LM+2}
+    \strng{fullhash}{LMSGDVVGVFGPBPCSJLRTRGFA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1708/3181.31599
+    \endverb
+    \field{number}{3}
+    \field{pages}{109\bibrangedash 114}
+    \field{title}{Il field trial italiano dell’ICD-11: riproducibilità tra valutatori nell’uso delle direttive diagnostiche per la schizofrenia e disturbi collegati}
+    \verb{url}
+    \verb https://www.rivistadipsichiatria.it/archivio/3181/articoli/31599/
+    \endverb
+    \field{volume}{54}
+    \field{journaltitle}{Rivista di Psichiatria}
+    \field{year}{2019}
+  \endentry
+
   \entry{McCarthy2007}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=MJ}{%
@@ -3470,6 +3994,51 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{cs.CL}
     \field{year}{2013}
+  \endentry
+
+  \entry{njifenjou2024roleplayzeroshotpromptinglarge}{misc}{}{}
+    \name{author}{4}{}{%
+      {{hash=NA}{%
+         family={Njifenjou},
+         familyi={N\bibinitperiod},
+         given={Ahmed},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Sucal},
+         familyi={S\bibinitperiod},
+         given={Virgile},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=JB}{%
+         family={Jabaian},
+         familyi={J\bibinitperiod},
+         given={Bassam},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LF}{%
+         family={Lefèvre},
+         familyi={L\bibinitperiod},
+         given={Fabrice},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NA+1}
+    \strng{fullhash}{NASVJBLF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \verb{eprint}
+    \verb 2406.18460
+    \endverb
+    \field{title}{Role-Play Zero-Shot Prompting with Large Language Models for Open-Domain Human-Machine Conversation}
+    \verb{url}
+    \verb https://arxiv.org/abs/2406.18460
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CL}
+    \field{year}{2024}
   \endentry
 
   \entry{Cnn}{misc}{}{}
@@ -3660,6 +4229,29 @@
     \field{year}{2014}
   \endentry
 
+  \entry{learnprompting_role}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=PL}{%
+         family={Prompting},
+         familyi={P\bibinitperiod},
+         given={Learn},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PL1}
+    \strng{fullhash}{PL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{note}{Accessed: 2025-04-05}
+    \field{title}{Role Prompting}
+    \verb{url}
+    \verb https://learnprompting.org/docs/advanced/zero_shot/role_prompting
+    \endverb
+    \field{year}{2024}
+  \endentry
+
   \entry{HMM}{article}{}{}
     \name{author}{2}{}{%
       {{hash=RL}{%
@@ -3834,6 +4426,75 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{cs.LG}
     \field{year}{2024}
+  \endentry
+
+  \entry{10.1145/3306618.3314244}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=RID}{%
+         family={Raji},
+         familyi={R\bibinitperiod},
+         given={Inioluwa\bibnamedelima Deborah},
+         giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Buolamwini},
+         familyi={B\bibinitperiod},
+         given={Joy},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{machine learning, fairness, facial recognition, ethics, computer vision, commercial applications, artificial intelligence}
+    \strng{namehash}{RID+1}
+    \strng{fullhash}{RIDBJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Although algorithmic auditing has emerged as a key strategy to expose systematic biases embedded in software platforms, we struggle to understand the real-world impact of these audits, as scholarship on the impact of algorithmic audits on increasing algorithmic fairness and transparency in commercial systems is nascent. To analyze the impact of publicly naming and disclosing performance results of biased AI systems, we investigate the commercial impact of Gender Shades, the first algorithmic audit of gender and skin type performance disparities in commercial facial analysis models. This paper 1) outlines the audit design and structured disclosure procedure used in the Gender Shades study, 2) presents new performance metrics from targeted companies IBM, Microsoft and Megvii (Face++) on the Pilot Parliaments Benchmark (PPB) as of August 2018, 3) provides performance results on PPB by non-target companies Amazon and Kairos and, 4) explores differences in company responses as shared through corporate communications that contextualize differences in performance on PPB. Within 7 months of the original audit, we find that all three targets released new API versions. All targets reduced accuracy disparities between males and females and darker and lighter-skinned subgroups, with the most significant update occurring for the darker-skinned female subgroup, that underwent a 17.7\% - 30.4\% reduction in error between audit periods. Minimizing these disparities led to a 5.72\% to 8.3\% reduction in overall error on the Pilot Parliaments Benchmark (PPB) for target corporation APIs. The overall performance of non-targets Amazon and Kairos lags significantly behind that of the targets, with error rates of 8.66\% and 6.60\% overall, and error rates of 31.37\% and 22.50\% for the darker female subgroup, respectively.%
+    }
+    \field{booktitle}{Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society}
+    \verb{doi}
+    \verb 10.1145/3306618.3314244
+    \endverb
+    \field{isbn}{9781450363242}
+    \field{pages}{429–435}
+    \field{series}{AIES '19}
+    \field{title}{Actionable Auditing: Investigating the Impact of Publicly Naming Biased Performance Results of Commercial AI Products}
+    \verb{url}
+    \verb https://doi.org/10.1145/3306618.3314244
+    \endverb
+    \list{location}{1}{%
+      {Honolulu, HI, USA}%
+    }
+    \field{year}{2019}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{ricci2020sperimentazione}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=RL}{%
+         family={Ricci},
+         familyi={R\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RL1}
+    \strng{fullhash}{RL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{note}{Accesso: 5 aprile 2025}
+    \field{title}{Sperimentazione clinica e metodi statistici: un'analisi critica}
+    \verb{url}
+    \verb https://www.research.unipd.it/handle/11577/2703279
+    \endverb
+    \field{year}{2020}
   \endentry
 
   \entry{Rosenblatt1957}{report}{}{}
@@ -12716,6 +13377,63 @@
     \field{year}{2023}
   \endentry
 
+  \entry{tsai2019multimodaltransformerunalignedmultimodal}{misc}{}{}
+    \name{author}{6}{}{%
+      {{hash=TYHH}{%
+         family={Tsai},
+         familyi={T\bibinitperiod},
+         given={Yao-Hung\bibnamedelima Hubert},
+         giveni={Y\bibinithyphendelim H\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bai},
+         familyi={B\bibinitperiod},
+         given={Shaojie},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LPP}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Paul\bibnamedelima Pu},
+         giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=KJZ}{%
+         family={Kolter},
+         familyi={K\bibinitperiod},
+         given={J.\bibnamedelima Zico},
+         giveni={J\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+      {{hash=MLP}{%
+         family={Morency},
+         familyi={M\bibinitperiod},
+         given={Louis-Philippe},
+         giveni={L\bibinithyphendelim P\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Salakhutdinov},
+         familyi={S\bibinitperiod},
+         given={Ruslan},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TYHH+1}
+    \strng{fullhash}{TYHHBSLPPKJZMLPSR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{eprint}
+    \verb 1906.00295
+    \endverb
+    \field{title}{Multimodal Transformer for Unaligned Multimodal Language Sequences}
+    \verb{url}
+    \verb https://arxiv.org/abs/1906.00295
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CL}
+    \field{year}{2019}
+  \endentry
+
   \entry{tuli2023large}{article}{}{}
     \name{author}{2}{}{%
       {{hash=TS}{%
@@ -13170,6 +13888,53 @@
     \verb https://hci.stanford.edu/winograd/shrdlu/
     \endverb
     \field{year}{2025}
+  \endentry
+
+  \entry{wongpakaran2013comparison}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=WN}{%
+         family={Wongpakaran},
+         familyi={W\bibinitperiod},
+         given={Nahathai},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=WT}{%
+         family={Wongpakaran},
+         familyi={W\bibinitperiod},
+         given={Tinakon},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Wedding},
+         familyi={W\bibinitperiod},
+         given={Danny},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GKL}{%
+         family={Gwet},
+         familyi={G\bibinitperiod},
+         given={Kilem\bibnamedelima L.},
+         giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WN+1}
+    \strng{fullhash}{WNWTWDGKL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1186/1471-2288-13-61
+    \endverb
+    \field{number}{1}
+    \field{pages}{61}
+    \field{title}{A comparison of Cohen's Kappa and Gwet's AC1 when calculating inter-rater reliability coefficients: a study conducted with personality disorder samples}
+    \verb{url}
+    \verb https://doi.org/10.1186/1471-2288-13-61
+    \endverb
+    \field{volume}{13}
+    \field{journaltitle}{BMC Medical Research Methodology}
+    \field{year}{2013}
   \endentry
 
   \entry{woo2024effectspromptengineeringintervention}{misc}{}{}

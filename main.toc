@@ -17,7 +17,60 @@
 \contentsline {subsubsection}{Prompt engineering in the educational field:}{26}{section*.53}%
 \contentsline {subsubsection}{Prompt Engineering in the legal field:}{27}{section*.54}%
 \contentsline {chapter}{\numberline {3}Proposed Methodology}{29}{chapter.56}%
-\contentsline {chapter}{\numberline {4}Design and implementations}{30}{chapter.57}%
-\contentsline {chapter}{\numberline {5}Evaluation and results}{31}{chapter.58}%
-\contentsline {chapter}{\numberline {6}Conclusions and possible future solutions}{32}{chapter.59}%
-\contentsline {chapter}{Bibliography}{34}{chapter*.61}%
+\contentsline {section}{\numberline {3.1}Which is the need?}{29}{section.57}%
+\contentsline {section}{\numberline {3.2}Working Process}{29}{section.58}%
+\contentsline {chapter}{\numberline {4}Design and implementations}{32}{chapter.64}%
+\contentsline {section}{\numberline {4.1}Choosed questions}{32}{section.65}%
+\contentsline {paragraph}{Legally Neutral questions}{32}{section*.66}%
+\contentsline {paragraph}{Legally Moderate questions}{33}{section*.74}%
+\contentsline {paragraph}{Legally Risky questions}{35}{section*.85}%
+\contentsline {section}{\numberline {4.2}Choosed Large Language Models}{36}{section.90}%
+\contentsline {paragraph}{Example}{38}{section*.92}%
+\contentsline {subsection}{\numberline {4.2.1}Technical implementation of LLMs}{39}{subsection.94}%
+\contentsline {paragraph}{Example of the use of APIs}{40}{section*.99}%
+\contentsline {section}{\numberline {4.3}Choosed Prompting Techniques}{41}{section.126}%
+\contentsline {subsection}{\numberline {4.3.1}Raw Questions}{42}{subsection.128}%
+\contentsline {subsection}{\numberline {4.3.2}Legality Prompt}{42}{subsection.129}%
+\contentsline {subsection}{\numberline {4.3.3}Role-Play}{43}{subsection.134}%
+\contentsline {paragraph}{\textbf {Raw prompt:}}{44}{section*.137}%
+\contentsline {paragraph}{\textbf {Raw Answer:\\}}{44}{section*.138}%
+\contentsline {paragraph}{\textbf {Role-prompt:}}{45}{section*.139}%
+\contentsline {paragraph}{\textbf {Role-play Answer:}}{45}{section*.140}%
+\contentsline {subsection}{\numberline {4.3.4}Self-Consistency}{45}{subsection.141}%
+\contentsline {paragraph}{\textbf {Self-Consistency prompt:}}{49}{section*.147}%
+\contentsline {paragraph}{Q:}{49}{section*.148}%
+\contentsline {paragraph}{A:}{49}{section*.149}%
+\contentsline {paragraph}{Q:}{49}{section*.153}%
+\contentsline {paragraph}{A:}{50}{section*.154}%
+\contentsline {paragraph}{Note on Legal Implications:}{50}{section*.159}%
+\contentsline {paragraph}{Q:}{51}{section*.160}%
+\contentsline {paragraph}{A:}{51}{section*.161}%
+\contentsline {paragraph}{Note on Legal Implications:}{52}{section*.170}%
+\contentsline {paragraph}{Q:}{52}{section*.171}%
+\contentsline {paragraph}{A:}{52}{section*.172}%
+\contentsline {paragraph}{Self-Consistency Answer:\\}{52}{section*.173}%
+\contentsline {paragraph}{Disclaimer:}{53}{section*.174}%
+\contentsline {subsection}{\numberline {4.3.5}Role-play and Self-Consistency in the Countries domains}{54}{subsection.175}%
+\contentsline {paragraph}{\textbf {Role-play Country prompt:\\}}{55}{section*.180}%
+\contentsline {paragraph}{\textbf {Self-Consistency Country prompt:\\}}{55}{section*.181}%
+\contentsline {paragraph}{Q:}{55}{section*.182}%
+\contentsline {paragraph}{A:}{55}{section*.183}%
+\contentsline {paragraph}{Q:}{56}{section*.187}%
+\contentsline {paragraph}{A:}{56}{section*.188}%
+\contentsline {paragraph}{Note on Legal Implications:}{57}{section*.193}%
+\contentsline {paragraph}{Q:}{57}{section*.194}%
+\contentsline {paragraph}{A:}{57}{section*.195}%
+\contentsline {paragraph}{Note on Legal Implications:}{58}{section*.204}%
+\contentsline {paragraph}{Q:}{59}{section*.205}%
+\contentsline {paragraph}{A:}{59}{section*.206}%
+\contentsline {paragraph}{}{59}{section*.207}%
+\contentsline {section}{\numberline {4.4}Evaluation approaches}{59}{section.208}%
+\contentsline {subsection}{\numberline {4.4.1}Quantitative approach}{59}{subsection.209}%
+\contentsline {paragraph}{Analysis on awareness:}{59}{section*.210}%
+\contentsline {paragraph}{K-Coehn's Formula:}{60}{section*.212}%
+\contentsline {paragraph}{PABAK's formula: }{61}{section*.213}%
+\contentsline {paragraph}{Distribution of response classes:}{61}{section*.215}%
+\contentsline {subsection}{\numberline {4.4.2}Qualitative approach}{62}{subsection.216}%
+\contentsline {chapter}{\numberline {5}Evaluation and results}{63}{chapter.217}%
+\contentsline {chapter}{\numberline {6}Conclusions and possible future solutions}{64}{chapter.218}%
+\contentsline {chapter}{Bibliography}{66}{chapter*.220}%
