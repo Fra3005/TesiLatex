@@ -7,6 +7,7 @@ In particular, Section \ref{sec:LLMs} will illustrate the concept of Large Langu
 
 \section{Large Language Models}
 \label{sec:LLMs}
+In this section we will illustrate how Large Language Models work, starting with an overview of the evolution of language models and moving on to a technical explanation of how they work, which will help the reader to understand the following chapters more clearly.
 \subsection{Language Model Evolution}
 \label{sec:Evolution}
 
@@ -201,6 +202,7 @@ However, the real revolution occurred with the introduction of the Attention Mec
 Today, with the spread of Large Language Models (LLMs) such as GPT-4, Prompt Engineering represents a set of techniques aimed at perfecting the formulation of the request to obtain more accurate results. This has become an essential element in guiding models towards more coherent, controlled and personalised outputs. This has enabled more effective interaction between humans and machines, allowing the use of models in critical areas such as medicine, law and scientific research. At the same time, growing awareness of the social implications of AI has led to an increasing focus on the need for responsible prompt engineering, capable of mitigating bias, improving transparency and ensuring the safe use of language models \cite{schulhoff2025promptreportsystematicsurvey}.
 Modern prompting techniques are not limited to providing simple textual input, but include advanced strategies to induce the model to respond in a more structured and precise manner.
 \subsection{Taxonomies and main techniques}
+\label{sec: taxonomies}
 Although this is a relatively new and constantly evolving field, the role of the prompt engineer, is becoming increasingly important, thanks to his ability to optimise interaction with linguistic models. A competent prompt engineer must be able to analyse the context in which the model is used and, consequently, apply the most appropriate prompting technique to maximise the effectiveness and accuracy of the responses.
 Currently, prompt engineering techniques can be organised within a well-defined taxonomy, which classifies the main strategies:\\
 \begin{itemize}
@@ -256,7 +258,7 @@ This methodology is designed to guide the model in the development of a more str
 \end{enumerate}
 For example, a child learning to add \textit{12+15} might say: \textit{'I know that 10 + 10 makes 20’, ‘then I add 2 and get 22’, ‘finally I add 3 and arrive at 25'}.
 This natural form of reasoning is reproduced in CoT \cite{Cot}. 
-This technique is particularly useful in more complex analyses, in which the models tend to have more gaps, both due to a limited availability of data and because of their probabilistic nature, which leads them to generate the most plausible answer without necessarily following a logical reasoning process.This is particularly evident in areas such as the resolution of mathematical and logical problems, medical diagnoses and, more generally, in legal contexts, as in the case of the present thesis work.
+This technique is particularly useful in more complex analyses, in which the models tend to have more gaps, both due to a limited availability of data and because of their probabilistic nature, which leads them to generate the most plausible answer without necessarily following a logical reasoning process.This is particularly evident in areas such as the resolution of mathematical and logical problems, medical diagnoses and, more generally, in legal contexts, as in the case of the present thesis.
 There are several variations of the Chain-of-Thought (CoT) approach, including \textit{zero-shot CoT},in which no explicit examples are provided, but the model is invited to develop structured reasoning through explicit instruction, such as \textit{let's think step by step}. 
 For example, let's consider the following case:\\
 \\
@@ -273,7 +275,7 @@ Here's an example to help you understand better:\\
 \\
 In this way, the answer could be correct both normally and with this approach, but by doing this the model demonstrates a deeper and more structured understanding.
 As for the category \textbf{Ensembling}, as mentioned above, it refers to a technique that combines different prompting approaches to obtain more accurate responses from the models. 
-The idea is therefore to assemble or combine several prompts, to exploit the strengths of each one. Among these techniques we find \textbf{self-consistency} \cite{SC}, also used in this thesis work, which is one of the most used techniques and generates more reasoning paths, which will be explained in Chapter \ref{cap:progettazione}.
+The idea is therefore to assemble or combine several prompts, to exploit the strengths of each one. Among these techniques we find \textbf{self-consistency} \cite{SC}, also used in this thesis, which is one of the most used techniques and generates more reasoning paths, which will be explained in Chapter \ref{cap:progettazione}.
 Another technique, an extension of the Mixture of Experts (MoE) \cite{MoE} architecture, on which some modern models are based, is the \textit{Mixture of Reasoning Experts} (MoRE) \cite{MoRE}.
 The central concept behind this methodology is to combine different \textit{experts} specialised in specific areas of reasoning to improve the quality of the answers generated by the model.
 Each \textit{expert} provides an answer to the question based on their area of expertise.
@@ -320,55 +322,3 @@ A first fundamental reference is the study \cite{Damato}which inspired the prese
 Still in the legal sector, another piece of research \footnote{\url{https://pernice.com/chatgpt-batte-gli-avvocati}}compares the performance of LLMs with that of lawyers in contract review, highlighting how these models can reach, and in some cases exceed, the skills of professionals in specific legal activities.
 In the work \cite{chalkidis2023lexfileslegallamafacilitatingenglish} LeXFiles, a multinational legal corpus in English, was developed, together with the LegalLAMA benchmark, designed for probing legal knowledge in pre-trained linguistic models. This study showed how the size of the model and previous legal knowledge significantly influence performance in specific legal tasks.
 Finally, in \cite{cui2024chatlawmultiagentcollaborativelegal} a multi-turn prompt engineering method is proposed, which allows the iterative refinement of the responses provided by the model, improving its legal precision, coherence and contextual relevance. The process involves using an initial prompt to generate an initial response, followed by subsequent prompts to clarify, correct or elaborate on certain aspects. This iterative cycle continues until a legally consistent and accurate response is obtained. The quality of the responses is evaluated using four main metrics: legal consistency, legal accuracy, depth of reasoning and iterative improvement.
-
-
-% \paragraph{paragrafo}
-% ciao kdskkdkdk 
-
-% \begin{enumerate}
-%     \item esempio
-%     \begin{enumerate}
-%         \item numero
-%     \end{enumerate}
-%     \item cao
-% \end{enumerate}
-
-
-
-% \textit{testo} a \textbf{caso} 
-
-% % vedi figura~\ref{fig:graph}
-
-% \begin{tabular}{ |c c c| } 
-%     \hline
-%     col1 & col2 & col3 \\
-%     \hline
-%     \multirow{3}{4em}{Multiple row} & cell2 & cell3 \\ 
-%     & cell5 & cell6 \\ 
-%     & cell8 & cell9 \\ 
-%     \hline
-%     \end{tabular}
-
-
-% \begin{lstlisting}[language=Python, caption=esempio codice]
-%     with open("Mistral-FAIR1.txt", "a", encoding="utf-8") as file:
-%     for idx, question in enumerate(questions, start=1):  
-%         file.write(f"\n=== Answer {idx} ===\n")  
-%         with Mistral(
-%         #api_key=os.getenv("MISTRAL_API_KEY", ""),
-%             api_key="jtBNWvzcU9O7yoBMJs4S1ZItqqJF9nsW"
-%             ) as mistral:
-
-%             res = mistral.chat.complete(model="open-mixtral-8x7b", messages=[
-%                 {
-%                     "content": question,
-%                     "role": "user",
-%                 },
-%             ], stream=False)
-%             response_text = res.choices[0].message.content
-%             # Handle response
-%             file.write(response_text)
-%             time.sleep(2)
-
-%         file.write("\n\n" + "=" * 50 + "\n")
-% \end{lstlisting}

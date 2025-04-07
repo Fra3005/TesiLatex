@@ -26,7 +26,7 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{pythonhighlight}
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
-
+\usepackage{makecell}
 %\usepackage{palatino} % Use the Palatino font by default
 
 \usepackage[maxcitenames=1,backend=bibtex,style=numeric,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
@@ -241,13 +241,13 @@ headsepline, % Uncomment to get a line under the header
 %----------------------------------------------------------------------------------------
 %	LIST OF FIGURES/TABLES PAGES
 %----------------------------------------------------------------------------------------
-% \cleardoublepage
+\cleardoublepage
 
-% \listoffigures % Prints the list of figures
+\listoffigures % Prints the list of figures
 
-% \listoftables % Prints the list of tables
+\listoftables % Prints the list of tables
 
-% \lstlistoflistings % Prints the list of listings
+\lstlistoflistings % Prints the list of listings
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - CHAPTERS
@@ -281,7 +281,7 @@ headsepline, % Uncomment to get a line under the header
 \label{cap:sperimentazione}
 \input{Contents/cap5-sperimentazione.tex}
 
-\chapter{Conclusions and possible future solutions}
+\chapter{Conclusions and future works}
 \label{cap:conclusioni}
 \input{Contents/cap6-conclusioni.tex}
 %----------------------------------------------------------------------------------------
