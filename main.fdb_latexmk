@@ -1,21 +1,21 @@
 # Fdb version 4
-["bibtex main"] 1744104849.25672 "main.aux" "main.bbl" "main" 1744107990.13181 0
-  "./main-blx.bib" 1744107987 342 20f4db94ea2713a5ca7134ff7e083581 ""
+["bibtex main"] 1744143430.02424 "main.aux" "main.bbl" "main" 1744144123.84143 0
+  "./main-blx.bib" 1744144121 342 20f4db94ea2713a5ca7134ff7e083581 ""
   "./references.bib" 1743874306 69318 b72db4a7a0fdc5f130735182972df1e1 ""
   "c:/texlive/2025/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1743533745 65510 b1f696b0241395385f422f67543c37fd ""
-  "main.aux" 1744107987 39483 7db5887611051da3369a39f01cb24c8e "pdflatex"
+  "main.aux" 1744144121 39486 d7aed8ea6e5eda537170f8e2f332107b "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1744107981.01647 "c:/Users/franc/Desktop/TesiLatex/main.tex" "main.pdf" "main" 1744107990.13294 0
+["pdflatex"] 1744144114.69414 "c:/Users/franc/Desktop/TesiLatex/main.tex" "main.pdf" "main" 1744144123.84309 0
   "Contents/abstract-eng.tex" 1743588095 1389 4e463523a749cd1c84d438d378dfca3d ""
   "Contents/acknowledgements.tex" 1742148319 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Contents/cap1-introduzione.tex" 1744043497 13673 ec7ff459b1b0e3623bc98d087752c015 ""
-  "Contents/cap2-stato_dellarte.tex" 1744044426 49929 b6741ba75c811a0272fa0ae509bbfad1 ""
+  "Contents/cap1-introduzione.tex" 1744142771 13682 af51488f0e166ad61425571c735a9cea ""
+  "Contents/cap2-stato_dellarte.tex" 1744142895 49920 59fdab3278fb06327582552ec3e133d5 ""
   "Contents/cap3-metodologia.tex" 1744104335 5938 2e5b875adbdd0b0f690acbbedd247bab ""
-  "Contents/cap4-progettazione.tex" 1744107980 63266 5bb25ef7b76c35759992c73efb3e6367 ""
-  "Contents/cap5-sperimentazione.tex" 1744104767 38685 cceb497af5d7b2f507eb6035df3f95ac ""
+  "Contents/cap4-progettazione.tex" 1744144114 66078 236e6bd2f1a13a542264a78a71d49a57 ""
+  "Contents/cap5-sperimentazione.tex" 1744144012 39587 52e3023d555d0cc9cf9b46e7fa2767f0 ""
   "Contents/cap6-conclusioni.tex" 1744043802 3019 6d81f69442545413d33c8ecd7004608c ""
   "Contents/dedication.tex" 1743971247 218 3b5f64a5652848837a10e441ca5d54c6 ""
   "Contents/title-page.tex" 1743587931 964 9969501bdc6703de34a7d1c3034205d7 ""
@@ -369,15 +369,15 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1743538349 5546851 e7871638e4e57d7ca4525db0eb5a9d2a ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743538765 3346125 ebc0b325081bdce900c04c49e5250742 ""
   "c:/texlive/2025/texmf.cnf" 1743538318 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1744107987 39483 7db5887611051da3369a39f01cb24c8e "pdflatex"
-  "main.bbl" 1744104851 381784 7c11352bd07eb68c298079565b41e1fa "bibtex main"
-  "main.lof" 1744107987 2283 3a015e3abe2020b60bbdb05bc15b915e "pdflatex"
-  "main.lol" 1744107987 189 840e1903ea054124ed3eb9ddee908d7b "pdflatex"
-  "main.lot" 1744107987 636 02a9a2df16b17946037b5e0c259846b6 "pdflatex"
-  "main.out" 1744107987 8334 3958eb6f374361fceac9bfa0fb9a8087 "pdflatex"
-  "main.run.xml" 1744107987 2556 a0fac511a363462afe9ea07acffcc3b0 "pdflatex"
+  "main.aux" 1744144121 39486 d7aed8ea6e5eda537170f8e2f332107b "pdflatex"
+  "main.bbl" 1744143432 381784 7c11352bd07eb68c298079565b41e1fa "bibtex main"
+  "main.lof" 1744144121 2283 0b7722cdc783481770ae13c04f45fe9b "pdflatex"
+  "main.lol" 1744144121 189 840e1903ea054124ed3eb9ddee908d7b "pdflatex"
+  "main.lot" 1744144121 636 e3dbcfe9f2ab0668b64af16964cd3f0b "pdflatex"
+  "main.out" 1744144121 8334 34d9c9867e8d66fc71dd23d9032a45fd "pdflatex"
+  "main.run.xml" 1744144121 2556 a0fac511a363462afe9ea07acffcc3b0 "pdflatex"
   "main.tex" 1744104833 11637 ba11b7d918c5bb1a23d69b559b410477 ""
-  "main.toc" 1744107987 6527 b880f2d6b9ccad9a56bd7451cc88d909 "pdflatex"
+  "main.toc" 1744144121 6530 ee2b04f1e571475fc21862277aabc775 "pdflatex"
   (generated)
   "main-blx.bib"
   "main.aux"
