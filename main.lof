@@ -1,25 +1,25 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Transformer's architecture}}{10}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Embedding's transformation}}{12}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Transfer learning process between two domains \blx@tocontentsinit {0}\cite {vitalfluxNLP}}}{13}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces ChatGPT web interface}}{15}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces OpenAI's journey \blx@tocontentsinit {0}\cite {Journey}}}{16}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Gemini web interface}}{16}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Mixtral web interface}}{18}{figure.caption.35}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces DeepSeek web interface}}{19}{figure.caption.37}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces RAG's elaboration process.}}{25}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Transformer's architecture}}{10}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Embedding's transformation}}{12}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Transfer learning process between two domains \blx@tocontentsinit {0}\cite {vitalfluxNLP}}}{13}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces ChatGPT web interface}}{15}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces OpenAI's journey \blx@tocontentsinit {0}\cite {Journey}}}{16}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Gemini web interface}}{16}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Mixtral web interface}}{18}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces DeepSeek web interface}}{19}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces RAG's elaboration process.}}{25}{figure.caption.51}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Development process}}{30}{figure.caption.62}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Development process}}{30}{figure.caption.63}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Models used for generating answers}}{38}{figure.caption.94}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Increased specialisation of prompt engineering techniques}}{43}{figure.caption.130}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Role-play mechanism \blx@tocontentsinit {0}\cite {learnprompting_role}}}{45}{figure.caption.139}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Self-Consistency approach}}{47}{figure.caption.145}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces User-awareness analysis}}{62}{figure.caption.217}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Models used for generating answers}}{38}{figure.caption.95}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Increased specialisation of prompt engineering techniques}}{43}{figure.caption.131}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Role-play mechanism \blx@tocontentsinit {0}\cite {learnprompting_role}}}{45}{figure.caption.140}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Self-Consistency approach}}{47}{figure.caption.146}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces User-awareness analysis}}{62}{figure.caption.218}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Distribution of legally neutral answers}}{76}{figure.caption.266}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Distribution of legally moderate answers}}{79}{figure.caption.275}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Distribution of legally risky answers}}{80}{figure.caption.277}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Distribution of legally neutral answers}}{76}{figure.caption.267}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Distribution of legally moderate answers}}{79}{figure.caption.276}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Distribution of legally risky answers}}{80}{figure.caption.278}%
 \addvspace {10\p@ }

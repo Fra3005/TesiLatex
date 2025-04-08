@@ -528,6 +528,9 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm2488.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx2488.tfm
+INPUT ./Contents/acknowledgements.tex
+INPUT ./Contents/acknowledgements.tex
+INPUT Contents/acknowledgements.tex
 INPUT ./Contents/abstract-eng.tex
 INPUT ./Contents/abstract-eng.tex
 INPUT Contents/abstract-eng.tex
@@ -695,9 +698,6 @@ INPUT ./Figures/Legally Risky.png
 INPUT ./Contents/cap6-conclusioni.tex
 INPUT ./Contents/cap6-conclusioni.tex
 INPUT Contents/cap6-conclusioni.tex
-INPUT ./Contents/acknowledgements.tex
-INPUT ./Contents/acknowledgements.tex
-INPUT Contents/acknowledgements.tex
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
