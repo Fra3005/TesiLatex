@@ -31,59 +31,59 @@
 \contentsline {subsection}{\numberline {4.2.1}Technical implementation of LLMs}{41}{subsection.98}%
 \contentsline {paragraph}{Example of the use of APIs}{42}{section*.103}%
 \contentsline {section}{\numberline {4.3}Adopted Prompting Techniques}{43}{section.130}%
-\contentsline {subsection}{\numberline {4.3.1}Raw Questions}{44}{subsection.132}%
+\contentsline {subsection}{\numberline {4.3.1}Raw Questions}{43}{subsection.132}%
 \contentsline {subsection}{\numberline {4.3.2}Legality Prompt}{44}{subsection.133}%
-\contentsline {subsection}{\numberline {4.3.3}Role-Play}{45}{subsection.138}%
-\contentsline {paragraph}{\textbf {Raw prompt:}}{46}{section*.141}%
-\contentsline {paragraph}{\textbf {Raw Answer:\\}}{46}{section*.142}%
-\contentsline {paragraph}{\textbf {Role-prompt:}}{47}{section*.143}%
-\contentsline {paragraph}{\textbf {Role-play Answer:}}{47}{section*.144}%
+\contentsline {subsection}{\numberline {4.3.3}Role-Play}{44}{subsection.138}%
+\contentsline {paragraph}{\textbf {Raw prompt:}}{45}{section*.141}%
+\contentsline {paragraph}{\textbf {Raw Answer:\\}}{45}{section*.142}%
+\contentsline {paragraph}{\textbf {Role-prompt:}}{46}{section*.143}%
+\contentsline {paragraph}{\textbf {Role-play Answer:}}{46}{section*.144}%
 \contentsline {subsection}{\numberline {4.3.4}Self-Consistency}{47}{subsection.145}%
-\contentsline {paragraph}{\textbf {Self-Consistency prompt:}}{51}{section*.151}%
-\contentsline {paragraph}{Q:}{51}{section*.152}%
-\contentsline {paragraph}{A:}{51}{section*.153}%
-\contentsline {paragraph}{Q:}{52}{section*.157}%
-\contentsline {paragraph}{A:}{52}{section*.158}%
-\contentsline {paragraph}{Note on Legal Implications:}{53}{section*.163}%
-\contentsline {paragraph}{Q:}{53}{section*.164}%
-\contentsline {paragraph}{A:}{53}{section*.165}%
-\contentsline {paragraph}{Note on Legal Implications:}{54}{section*.174}%
+\contentsline {paragraph}{\textbf {Self-Consistency prompt:}}{50}{section*.151}%
+\contentsline {paragraph}{Q:}{50}{section*.152}%
+\contentsline {paragraph}{A:}{50}{section*.153}%
+\contentsline {paragraph}{Q:}{51}{section*.157}%
+\contentsline {paragraph}{A:}{51}{section*.158}%
+\contentsline {paragraph}{Note on Legal Implications:}{52}{section*.163}%
+\contentsline {paragraph}{Q:}{52}{section*.164}%
+\contentsline {paragraph}{A:}{52}{section*.165}%
+\contentsline {paragraph}{Note on Legal Implications:}{53}{section*.174}%
 \contentsline {paragraph}{Q:}{54}{section*.175}%
 \contentsline {paragraph}{A:}{54}{section*.176}%
 \contentsline {paragraph}{Self-Consistency Answer:\\}{54}{section*.177}%
-\contentsline {paragraph}{Disclaimer:}{56}{section*.178}%
-\contentsline {subsection}{\numberline {4.3.5}Role-play and Self-Consistency in the Countries domains}{56}{subsection.179}%
-\contentsline {paragraph}{\textbf {Role-play Country prompt:\\}}{57}{section*.184}%
-\contentsline {paragraph}{\textbf {Self-Consistency Country prompt:\\}}{57}{section*.185}%
+\contentsline {paragraph}{Disclaimer:}{55}{section*.178}%
+\contentsline {subsection}{\numberline {4.3.5}Role-play and Self-Consistency in the Countries domains}{55}{subsection.179}%
+\contentsline {paragraph}{\textbf {Role-play Country prompt:\\}}{56}{section*.184}%
+\contentsline {paragraph}{\textbf {Self-Consistency Country prompt:\\}}{56}{section*.185}%
 \contentsline {paragraph}{Q:}{57}{section*.186}%
-\contentsline {paragraph}{A:}{58}{section*.187}%
-\contentsline {paragraph}{Q:}{58}{section*.191}%
-\contentsline {paragraph}{A:}{58}{section*.192}%
-\contentsline {paragraph}{Note on Legal Implications:}{59}{section*.197}%
+\contentsline {paragraph}{A:}{57}{section*.187}%
+\contentsline {paragraph}{Q:}{57}{section*.191}%
+\contentsline {paragraph}{A:}{57}{section*.192}%
+\contentsline {paragraph}{Note on Legal Implications:}{58}{section*.197}%
 \contentsline {paragraph}{Q:}{59}{section*.198}%
 \contentsline {paragraph}{A:}{59}{section*.199}%
 \contentsline {paragraph}{Note on Legal Implications:}{60}{section*.208}%
-\contentsline {paragraph}{Q:}{61}{section*.209}%
-\contentsline {paragraph}{A:}{61}{section*.210}%
-\contentsline {paragraph}{}{61}{section*.211}%
-\contentsline {section}{\numberline {4.4}Evaluation approaches}{61}{section.212}%
+\contentsline {paragraph}{Q:}{60}{section*.209}%
+\contentsline {paragraph}{A:}{60}{section*.210}%
+\contentsline {paragraph}{}{60}{section*.211}%
+\contentsline {section}{\numberline {4.4}Evaluation approaches}{60}{section.212}%
 \contentsline {subsection}{\numberline {4.4.1}Quantitative approach}{61}{subsection.213}%
-\contentsline {paragraph}{Distribution of response classes:}{62}{section*.214}%
+\contentsline {paragraph}{Distribution of response classes:}{61}{section*.214}%
 \contentsline {paragraph}{Analysis on awareness:}{62}{section*.215}%
-\contentsline {paragraph}{K-Coehn's Formula:}{64}{section*.218}%
-\contentsline {paragraph}{PABAK's formula: }{64}{section*.219}%
+\contentsline {paragraph}{K-Coehn's Formula:}{62}{section*.218}%
+\contentsline {paragraph}{PABAK's formula: }{63}{section*.219}%
 \contentsline {subsection}{\numberline {4.4.2}Qualitative approach}{64}{subsection.220}%
-\contentsline {chapter}{\numberline {5}Evaluation and results}{66}{chapter.221}%
-\contentsline {section}{\numberline {5.1}Legal implication of answers on vary the Prompt Engineering techninque}{66}{section.222}%
-\contentsline {subsection}{\numberline {5.1.1}Legally Neutral}{68}{subsection.231}%
-\contentsline {subsection}{\numberline {5.1.2}Legally Moderate}{71}{subsection.240}%
-\contentsline {subsection}{\numberline {5.1.3}Legally Risky}{72}{subsection.242}%
-\contentsline {section}{\numberline {5.2}Using LLMs for assessing the user-awareness of legal implication of LLM answers}{74}{section.244}%
-\contentsline {subsection}{\numberline {5.2.1}Qualitative analysis}{75}{subsection.246}%
-\contentsline {section}{\numberline {5.3}Best performing LLMs for assessing the user-awareness of legal implication of LLMs answers}{81}{section.276}%
-\contentsline {subsection}{\numberline {5.3.1}Qualitative analysis}{82}{subsection.278}%
-\contentsline {section}{\numberline {5.4}Result discussion}{84}{section.279}%
-\contentsline {chapter}{\numberline {6}Conclusions and future works}{86}{chapter.280}%
-\contentsline {section}{\numberline {6.1}Conclusions}{86}{section.281}%
-\contentsline {section}{\numberline {6.2}Future works}{86}{section.282}%
-\contentsline {chapter}{Bibliography}{88}{chapter*.283}%
+\contentsline {chapter}{\numberline {5}Evaluation and results}{65}{chapter.221}%
+\contentsline {section}{\numberline {5.1}Legal implication of answers on varying the Prompt Engineering techninques}{65}{section.222}%
+\contentsline {subsection}{\numberline {5.1.1}Legally Neutral}{67}{subsection.231}%
+\contentsline {subsection}{\numberline {5.1.2}Legally Moderate}{70}{subsection.240}%
+\contentsline {subsection}{\numberline {5.1.3}Legally Risky}{71}{subsection.242}%
+\contentsline {section}{\numberline {5.2}Using LLMs for assessing the user-awareness of legal implication of LLM answers}{73}{section.244}%
+\contentsline {subsection}{\numberline {5.2.1}Qualitative analysis}{74}{subsection.246}%
+\contentsline {section}{\numberline {5.3}Best performing LLMs for assessing the user-awareness of legal implication of LLMs answers}{80}{section.276}%
+\contentsline {subsection}{\numberline {5.3.1}Qualitative analysis}{81}{subsection.278}%
+\contentsline {section}{\numberline {5.4}Result discussion}{83}{section.279}%
+\contentsline {chapter}{\numberline {6}Conclusions and future works}{85}{chapter.280}%
+\contentsline {section}{\numberline {6.1}Conclusions}{85}{section.281}%
+\contentsline {section}{\numberline {6.2}Future works}{85}{section.282}%
+\contentsline {chapter}{Bibliography}{87}{chapter*.283}%

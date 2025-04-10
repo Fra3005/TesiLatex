@@ -3,7 +3,7 @@
 %----------------------------------------------------------------------------------------
 This chapter is dedicated to the technical explanation of the two fundamental concepts for this thesis: Large Language Models (LLMs) and Prompt Engineering. As far as Large Language Models are concerned, we will start with an analysis of the development of Natural Language Processing (NLP), examining the evolution from the first systems to the current advanced models.
 For Prompt Engineering, we will analyse the most commonly used categories, providing an overview of the techniques used in this study, which will be explored in greater depth in the following chapters.
-In particular, Section \ref{sec:LLMs} will illustrate the concept of Large Language Models (LLMs), Section \ref{sec:Evolution} will examine Prompt Engineering in depth and, finally, the state of the art and practice of both technologies will be presented.
+In particular, Section \ref{sec:LLMs} will illustrate the concept of Large Language Models (LLMs), Section \ref{sec:Prompt} will examine Prompt Engineering in depth and, finally, the state of the art and practice of both technologies will be presented.
 
 \section{Large Language Models}
 \label{sec:LLMs}
@@ -18,7 +18,7 @@ The evolution of Large Language Models (LLMs) did not happen overnight, but is t
 Before the introduction of the current models based on deep neural networks, several pioneering systems laid the foundations for the understanding and automatic generation of language, contributing significantly to the development of modern language technologies.
 One of the first attempts to develop a programme capable of simulating a human conversation dates back to 1966, with the creation of ELIZA by Joseph Weizenbaum at MIT \cite{Segal_2025}.
 ELIZA was a system based on pattern-matching \cite{PatternMatching} and predefined rules, designed to respond to users by adopting the communicative style of a Rogerian therapist.
-Although its capacity for understanding was extremely limited, many users at the time interpreted its responses as a sign of supposed \textit{‘intelligence’}, highlighting the potential of conversational simulation techniques.
+Although its capacity for understanding was extremely limited, many users at the time interpreted its responses as a sign of supposed \textit{intelligence}, highlighting the potential of conversational simulation techniques.
 In the 70s, ELIZA's successor was PARRY, developed by Kenneth Colby \cite{parry2025}.
 Unlike its predecessor, PARRY was designed to simulate the behaviour of a paranoid schizophrenic, integrating psychological models and more advanced rules. Thanks to these characteristics, the system was able to hold more believable conversations than ELIZA and was even subjected to experiments with psychiatrists. The results of these studies highlighted the ability of artificial intelligence to deceive human observers, demonstrating the potential of conversational simulations in the field of psychology and AI research.
 At the same time, the linguist and computer scientist Terry Winograd developed SHRDLU \cite{winograd2025}, a system designed to understand and respond to commands in natural language within a simulated environment of virtual blocks.
@@ -29,7 +29,7 @@ The advent of deep neural networks marked a crucial turning point in natural lan
 Techniques such as Word2Vec (2013) \cite{Word2vec} and GloVe (2014) \cite{Glove} allowed models to represent words in vector spaces, capturing semantic and contextual relationships. 
 In this approach, words with similar meanings are close together in vector space, facilitating the construction of meaningful sentences.
 Subsequently, the introduction of Long Short-Term Memory (LSTM) \cite{LSTM} and Recurrent Neural Networks (RNNs) \cite{Rnn} significantly improved the ability of models to handle longer text sequences.
-RNNs \cite{Rnn} belong to a class of neural networks designed for processing sequential data, such as text or time series. Their main characteristic is the presence of recurrent connections, which allow them to maintain a ‘memory’ of previous information.
+RNNs \cite{Rnn} belong to a class of neural networks designed for processing sequential data, such as text or time series. Their main characteristic is the presence of recurrent connections, which allow them to maintain a \textit{memory} of previous information.
 A Recurrent Neural Network (RNN) processes a sequence step by step, updating its hidden state \( h_{t-1} \)  according to the following update formula:\\
 \begin{equation}
     h_t = \tanh(W_h h_{t-1} + W_x x_t + b)
@@ -37,7 +37,7 @@ A Recurrent Neural Network (RNN) processes a sequence step by step, updating its
 where \( W_h \) e \( W_x \) are the weights, \( x_t \) is the current input and \( h_{t-1} \) is the previous hidden state.
 However, when the sequence becomes long, the problem of gradient disappearance \cite{Vanishing} arises, where the gradients can become too small or too large, making it difficult to train the models.
 Long-short term memory (LSTM) \cite{LSTM}, as an evolution of RNNs \cite{Rnn},were designed to overcome the problem of short-term memory.
-They use a special architecture with ‘gates’ that regulate the flow of information.
+They use a special architecture with \textit{gates} that regulate the flow of information.
 These gates are responsible for determining which information from the previous memory should be eliminated \textit{(Forget Gate)},  which should be added \textit{(Input Gate)}, which should be updated by combining Forget and Input \textit{(Cell State Update)} and, finally, which information should be sent as output \textit{(Output Gate)}.
 Despite these improvements, LSTM models were still limited in their management of the global context of a text, hindering a deep understanding of the relationships between the various parts of a complex discourse.
 \subsection{State-of-the-art}
